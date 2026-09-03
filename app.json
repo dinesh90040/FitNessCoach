@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Fitness Coach",
+    "slug": "fitness-coach-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "fitnesscoach",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourcompany.fitnesscoach",
+      "infoPlist": {
+        "UIUserInterfaceStyle": "Automatic",
+        "NSCameraUsageDescription": "Used to log meals by taking a photo of your food.",
+        "NSMicrophoneUsageDescription": "Used for voice logging of meals and workouts.",
+        "NSPhotoLibraryUsageDescription": "Used to attach a photo of your meal from your library."
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.fitnesscoach",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0B0E"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0A0B0E"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
