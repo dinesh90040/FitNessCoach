@@ -11,6 +11,11 @@ canned response, and logged sets/meals reset on app restart. That's the
 correct scope for a Phase 1 UI milestone — Phase 2 is wiring in real state
 persistence and an AI backend.
 
+## Documentation
+
+- **[SETUP_GUIDE.md](SETUP_GUIDE.md)**: Complete step-by-step installation, platform running guides (Expo Go, Web, Android Emulator, iOS Simulator), hotkeys, and troubleshooting.
+- **[FRONTEND_GUIDE.md](FRONTEND_GUIDE.md)**: Complete frontend & design system documentation — "Midnight Performance" theme philosophy, color tokens (Dark/Light), typography scale, spacing tokens, component hierarchy, screens, and Zustand state architecture.
+
 ## Run it
 
 ```bash
@@ -20,7 +25,7 @@ npx expo start
 
 Then press `i` for the iOS simulator (needs Xcode installed on a Mac), or
 scan the QR code with the **Expo Go** app on your own iPhone — that's the
-fastest way to see it on a real device without a Mac/simulator.
+fastest way to see it on a real device without a Mac/simulator. You can also press `w` to open it in a web browser.
 
 ## What's included
 
