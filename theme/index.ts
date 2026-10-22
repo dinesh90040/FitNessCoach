@@ -9,6 +9,6 @@ import { colors, ThemeColors } from "./colors";
 // so light/dark switches for free and there's one source of truth.
 export function useTheme(): { colors: ThemeColors; mode: "dark" | "light" } {
   const scheme = useColorScheme();
-  const mode = scheme === "light" ? "light" : "dark"; // default to dark
+  const mode = "dark"; // default to dark
   return { colors: colors[mode], mode };
 }

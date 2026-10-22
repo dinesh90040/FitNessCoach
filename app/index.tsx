@@ -3,5 +3,5 @@ import { useUserStore } from "@/store/useUserStore";
 
 export default function Index() {
   const hasOnboarded = useUserStore((s) => s.hasOnboarded);
-  return <Redirect href={hasOnboarded ? "/(tabs)" : "/(onboarding)/welcome"} />;
+  return <Redirect href={hasOnboarded ? "/(tabs)" : "/(auth)/login"} />;
 }
